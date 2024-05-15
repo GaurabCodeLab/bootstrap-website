@@ -91,6 +91,10 @@ header {
     margin-right: auto;
 }
 
+#contact .horizontal-rule{
+    width: 10rem;
+}
+
 .fa-arrow-right {
     cursor: pointer;
 }
