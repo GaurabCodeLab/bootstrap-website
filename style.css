@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header, main, footer{
+    overflow-x: hidden;
+}
+
+:root {
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --bs-secondary-color: #29a9fd;
+    --bs-supporting-color: #c850c0;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--bs-dark-color);
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+header {
+    background-color: var(--bs-dark-color);
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: var(--bs-secondary-color) !important;
+}
+
+.hero-section video {
+    height: 14rem;
+    border-radius: 20px !important;
+}
+
+.hero-section {
+    padding-bottom: 8rem;
+}
+
+.word-style {
+    font-size: 7.5rem;
+    color: var(--bs-secondary-color);
+    margin-right: 0.3rem;
+}
+
+.custom-shape-divider-bottom-1715111951 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1715111951 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 132px;
+}
+
+.custom-shape-divider-bottom-1715111951 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.horizontal-rule {
+    width: 22rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-arrow-right {
+    cursor: pointer;
+}
+
+.card {
+    border: none !important;
+}
+
+.card2 {
+    box-shadow: 0 0 10px gray;
+}
+
+.card1:hover {
+    box-shadow: 0 0 10px gray;
+}
+
+.img-wrapper {
+    overflow-x: hidden;
+}
+
+.carousel-section {
+    background-color: var(--bs-dark-primary);
+    padding-bottom: 6rem;
+}
+
+.carousel-card {
+    background-color: #262631;
+    color: white;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.carousel-card:hover {
+    background-color: white;
+    color: #262631;
+}
+
+.suggestion-section {
+    background-color: var(--bs-dark-color);
+}
+
+.suggestion-section img {
+    width: 25rem;
+}
+
+.suggestion-section h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+}
+
+.suggestion-section p {
+    color: var(--bs-primary-color);
+}
+
+.cust-gen img {
+    width: 12rem;
+}
+
+.cust-gen p {
+    line-height: 2rem;
+}
+
+.contact-section {
+    background-color: black;
+    color: white;
+    padding-top: 10rem;
+}
+
+.contact-section form {
+    padding: 0 10rem;
+}
+
+.contact {
+    padding: 0 10rem;
+}
+
+.custom-shape-divider-top-1715606292 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1715606292 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1715606292 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.footer {
+    background-color: #1A1D20;
+    color: white;
+}
+
+.footer li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-break {
+    background-color: white;
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media (max-width : 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .horizontal-rule {
+        width: 13rem;
+    }
+
+    .contact-section .horizontal-rule {
+        width: 7rem;
+    }
+
+    .contact-section form {
+        padding: 0 1rem;
+    }
+
+    .hero-section video {
+        height: 12rem;
+        margin-bottom: 2rem;
+    }
+}
